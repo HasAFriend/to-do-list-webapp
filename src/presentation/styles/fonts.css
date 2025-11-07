@@ -1,0 +1,4 @@
+@theme inline {
+    --font-main: var(--font-gowun), ui-sans-serif, system-ui, sans-serif;
+    --font-alt: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}

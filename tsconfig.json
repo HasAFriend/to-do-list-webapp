@@ -19,7 +19,7 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./src/*"] // Makes it so that @ is automatically called as /src/
     }
   },
   "include": [
