@@ -1,0 +1,31 @@
+import { cn } from "@/presentation/lib/utils";
+import * as React from "react";
+
+type Variant = "default" | "alternative"
+export type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
+    variant?: Variant;
+}
+
+const VARIANT: Record<Variant, string> = {
+    default: "bg-[var(--color-blue)] text-[var(--color-white)] hover:bg-[var(--color-blue-hovered)] focus-visible:bg-[var(--color-blue-focused)] focus-visible:outline-none ",
+    alternative: "bg-red-500"
+}
+
+export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
+    ({ className, variant = "default", children, ...props }, ref) => (
+        <button
+            ref={ref}
+            className={cn(
+                "inline-flex items-center justify-center gap-3 rounded-[50px] font-main transition-colors disabled:opacity-70 disabled:cursor-not-allowed h-[79px] w-[208px] text-[32px] px-[20px] py-[15px]", 
+                VARIANT[variant], // Variant allows for the use of variant style classes (default and alternative in this case)
+                className 
+            )}
+            {...props}
+        >
+            {children} 
+        </button>
+        // {children} allows for the button to display text
+    )
+)
+Button.displayName = "Button";
+// Remove hard coded height, width, and padding values found inside button later
