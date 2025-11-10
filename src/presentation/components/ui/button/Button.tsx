@@ -7,7 +7,7 @@ export type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
 }
 
 const VARIANT: Record<Variant, string> = {
-    default: "bg-[var(--color-blue)] text-[var(--color-white)] hover:bg-[var(--color-blue-hovered)]",
+    default: "bg-[var(--color-blue)] text-[var(--color-white)] hover:bg-[var(--color-blue-hovered)] focus-visible:bg-[var(--color-blue-focused)] focus-visible:outline-none ",
     alternative: "bg-red-500"
 }
 
