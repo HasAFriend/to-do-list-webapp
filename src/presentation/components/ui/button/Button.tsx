@@ -16,7 +16,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         <button
             ref={ref}
             className={cn(
-                "inline-flex items-center justify-center gap-3 rounded-[50px] font-main transition-colors disabled:opacity-70 disabled:cursor-not-allowed h-[79px] w-[208px] text-[32px] px-[20px] py-[15px]", 
+                "inline-flex items-center justify-center gap-[10px] rounded-[50px] font-main transition-colors disabled:opacity-70 disabled:cursor-not-allowed h-[79px] w-[208px] text-[32px] px-[20px] py-[15px]", // Hardcoded values. Please edit later
                 VARIANT[variant], // Variant allows for the use of variant style classes (default and alternative in this case)
                 className 
             )}
