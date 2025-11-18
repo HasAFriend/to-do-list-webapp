@@ -1,7 +1,10 @@
 @theme {
     --color-white: #FBFDFF;
     --color-grey: #787878;
-    --color-grey-white: #EBF0F9;
+    --color-grey-light: #C0C0C0;
+    --color-grey-light-input: #EBF0F9;
+    --color-grey-light-hovered: #E5E5E5;
+    --color-grey-dark-hovered: #949494;
     --color-black: #292B2F;
     --color-blue: #227BFF;
     --color-blue-hovered: #0066FF;

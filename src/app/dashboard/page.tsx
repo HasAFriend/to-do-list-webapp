@@ -1,4 +1,5 @@
 import { Button } from "@/presentation/components/ui/button/Button";
+import { CircleButton } from "@/presentation/components/ui/button/CircleButton";
 import { InputBar } from "@/presentation/components/ui/input/InputBar"; 
 import {
   TypographyTitle,
@@ -24,8 +25,11 @@ export default function Home() {
             <TypographyText> Task 4 </TypographyText>
             <TypographyText> Task 5 </TypographyText>
             <TypographyText> Task 6 </TypographyText>
+                        <CircleButton/>
+            <CircleButton variant="selected"></CircleButton>
           </div>
         </div>
+        
     </div>
   );
 }
