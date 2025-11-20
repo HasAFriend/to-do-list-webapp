@@ -1,5 +1,6 @@
 import { Button } from "@/presentation/components/ui/button/Button";
 import { CircleButton } from "@/presentation/components/ui/button/CircleButton";
+import { CloseIcon } from "@/presentation/components/ui/icons/CloseIcon";
 import { InputBar } from "@/presentation/components/ui/input/InputBar"; 
 import {
   TypographyTitle,
@@ -25,8 +26,10 @@ export default function Home() {
             <TypographyText> Task 4 </TypographyText>
             <TypographyText> Task 5 </TypographyText>
             <TypographyText> Task 6 </TypographyText>
-                        <CircleButton/>
+            <CircleButton/>
             <CircleButton variant="selected"></CircleButton>
+            <CloseIcon />
+            <CloseIcon className="text-red-500"></CloseIcon>
           </div>
         </div>
         

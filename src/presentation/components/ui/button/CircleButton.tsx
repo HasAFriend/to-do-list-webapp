@@ -9,7 +9,7 @@ export type CircleButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & 
 }
 
 type VariantStyle = {
-    className: string; // Allows styling 
+    className: string; // Allows styling via className
     svg?: React.ReactElement; // Allows for optional SVG usage
 }
 
