@@ -6,13 +6,13 @@ export type SVGProps = React.SVGProps<SVGSVGElement>
 export const CloseIcon = React.forwardRef<SVGSVGElement, SVGProps>(
     ({ className, ...props }, ref) => (
         <svg 
-            width="21" 
-            height="21" 
+            width="18.75" 
+            height="18.75" 
             viewBox="0 0 21 21" 
             fill="none" 
             xmlns="http://www.w3.org/2000/svg"
             ref={ref} // Added - Allows scripts to be used in this SVG
-            className={className || "text-[var(--color-grey)]"}  // Added - Allows color change; || sets the text to be default grey unless overwritten by other className styles
+            className={cn(className, "text-[var(--color-grey)]")}  // Added - Allows color change; {cn(className, "text-[var(--color-grey)]") sets the text to be default grey unless overwritten by other className styles. RECALL: cn merges classes, so if the parent passes a className, it doesn’t override the default unless explicitly set.
             {...props} // Added - Allows for other props to enter this SVG component
             // Make sure ref, className, and ...props fit the SVG tag; it's inside <>
         >
