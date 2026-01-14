@@ -50,10 +50,10 @@ export const CircleButton = React.forwardRef<HTMLButtonElement, CircleButtonProp
             )}
             {...props}
         >
-            {VARIANT[variant].svg && <span>{VARIANT[variant].svg}</span>}
+            {VARIANT[variant].svg} 
             {children} 
         </button>
-        // If .svg has svg makes a span to contain the svg in; A && B -> if A is true return
+        // place '&& <span>{VARIANT[variant].svg}</span>' beside  {VARIANT[variant].svg}  if you want to edit the marigins of svg inside the button | If .svg has svg makes a span to contain the svg in; A && B -> if A is true return
         
     )
 )
