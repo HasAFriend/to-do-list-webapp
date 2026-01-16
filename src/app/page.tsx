@@ -1,11 +1,11 @@
 "use client";
 
-import { Button } from "@/presentation/components/ui/button/Button";
+import { Button } from "@/app/components/ui/button/Button";
 import {
   TypographyTitle,
   TypographySubtitle,
   TypographyText,
-} from "@/presentation/components/ui/typography"
+} from "@/app/components/ui/typography"
 import { useRouter } from "next/navigation";
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
             <TypographyTitle> Welcome to my website. </TypographyTitle>
             <TypographySubtitle> Ready <span className="text-[var(--color-blue)]">to-do</span> some magic? </TypographySubtitle>
           </div>
-          <Button onClick={() => router.push("/dashboard")}> Click here. </Button>
+          <Button onClick={() => router.push("/TodoPage")}> Click here. </Button>
         </div>
     </div>
   );

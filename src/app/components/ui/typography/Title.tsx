@@ -1,4 +1,4 @@
-import { cn } from "@/presentation/lib/utils";
+import { cn } from "@/app/lib/utils";
 import * as React from "react";
 
 export type H1Props = React.HTMLAttributes<HTMLHeadingElement>
