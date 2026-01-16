@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import {inter, gowunDodum} from "@/app/lib/fonts" // Import adjusted based on tsconfig.json
-import "../presentation/styles/globals.css"; // Since globals.css imports fonts.css, fonts.css is used here too.
+import "./styles/globals.css"; // Since globals.css imports fonts.css, fonts.css is used here too.
 
 
 export const metadata: Metadata = {

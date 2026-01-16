@@ -1,8 +1,8 @@
 import { Button } from "@/app/components/ui/button/Button";
 import { CircleButton } from "@/app/components/ui/button/CircleButton";
-import { CloseIcon } from "@/app/components/ui/icons/CloseIcon";
-import { InputBar } from "@/app/components/ui/input/InputBar"; 
-import { TaskBar } from "@/app/components/TaskBar";
+import { CloseIcon } from "@/app/TodoPage/TodoComponents/icons/CloseIcon";
+import { InputBar } from "@/app/TodoPage/TodoComponents/input/InputBar"; 
+import { TaskBar } from "@/app/TodoPage/TodoComponents/TaskBar";
 import {
   TypographyTitle,
   TypographySubtitle,

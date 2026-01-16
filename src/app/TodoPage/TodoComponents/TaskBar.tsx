@@ -1,8 +1,8 @@
 import { cn } from "@/app/lib/utils";
 import * as React from "react";
-import { TypographyText } from "./ui/typography";
-import { CircleButton, type CircleButtonProps } from "./ui/button/CircleButton";
-import { CloseIcon } from "./ui/icons/CloseIcon";
+import { TypographyText } from "../../components/ui/typography";
+import { CircleButton, type CircleButtonProps } from "../../components/ui/button/CircleButton";
+import { CloseIcon } from "./icons/CloseIcon";
 
 export type TaskBarProps = React.HTMLAttributes<HTMLDivElement> & {
   circleVariant?: CircleButtonProps["variant"];
