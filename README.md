@@ -1,5 +1,5 @@
 # To-do List Web App
-A simple Next.js to-do list project focused on practicing web design via Figma, clean architecture, and SOLID principles. The goal of the webapp is to manage tasks by allowing the user to create, mark, and delete tasks. This project is currently under development.
+A simple Next.js to-do list project focused on practicing web design via Figma, code architecture/organization, and SOLID principles. The goal of the webapp is to manage tasks by allowing the user to create, mark, and delete tasks. This project is currently under development.
 
 ## Current Status
 Currently, this webapp only features UI components and basic setup. No task managing features are functional yet.

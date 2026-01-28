@@ -1,15 +1,15 @@
-import { Button } from "@/presentation/components/ui/button/Button";
-import { CircleButton } from "@/presentation/components/ui/button/CircleButton";
-import { CloseIcon } from "@/presentation/components/ui/icons/CloseIcon";
-import { InputBar } from "@/presentation/components/ui/input/InputBar"; 
-import { TaskBar } from "@/presentation/components/TaskBar";
+import { Button } from "@/app/components/ui/button/Button";
+import { CircleButton } from "@/app/components/ui/button/CircleButton";
+import { CloseIcon } from "@/app/todo-page/TodoComponents/icons/CloseIcon";
+import { InputBar } from "@/app/todo-page/TodoComponents/input/InputBar"; 
+import { TaskBar } from "@/app/todo-page/TodoComponents/TaskBar";
 import {
   TypographyTitle,
   TypographySubtitle,
   TypographyText,
-} from "@/presentation/components/ui/typography"
+} from "@/app/components/ui/typography"
 
-export default function Home() {
+export default function TodoPage() {
   return (
     <div className="flex items-center justify-center min-h-screen">
         <div className="flex items-center justify-center font-main flex-col w-[70vw] h-[90vh] gap-[16px]  gap-[16px]">
